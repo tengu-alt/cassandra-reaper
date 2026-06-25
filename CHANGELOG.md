@@ -1,5 +1,27 @@
 ## Change Log
 
+### 4.2.5 (2026/06/11 11:02 +00:00)
+- [#1683](https://github.com/thelastpickle/cassandra-reaper/pull/1683) fix: scheduled repairs never re-fire after a completed run (#1683) (#1686) (@onnos)
+
+### 4.2.4 (2026/06/02 12:00 +00:00)
+- [#1684](https://github.com/thelastpickle/cassandra-reaper/pull/1684) fix: Fix CVEs in cassandra reaper (#1684) (@ShreyashD333)
+
+### 4.2.3 (2026/05/19 12:45 +00:00)
+- [#1679](https://github.com/thelastpickle/cassandra-reaper/pull/1679) Enable metrics collection through https when hitting TLS endpoints (#1679) (@adejanovski)
+- [#1666](https://github.com/thelastpickle/cassandra-reaper/pull/1666) Send jwt token when editing schedules (#1666) (@Skunnyk)
+- [#1669](https://github.com/thelastpickle/cassandra-reaper/pull/1669) build(deps): bump follow-redirects in /src/ui/theming/bootstrap (#1669) (@dependabot[bot])
+- [#1667](https://github.com/thelastpickle/cassandra-reaper/pull/1667) build(deps): bump org.apache.cassandra:cassandra-all in /src/server (#1667) (@dependabot[bot])
+
+### 4.2.2 (2026/05/13 06:27 +00:00)
+- [#1672](https://github.com/thelastpickle/cassandra-reaper/pull/1672) Populate schedule metrics on startup (#1672) (@adejanovski)
+- [#1668](https://github.com/thelastpickle/cassandra-reaper/pull/1668) fix: remove JVM exit on SchedulingManager errors (#1668) (@artsiom-bukhautsou)
+- [#1661](https://github.com/thelastpickle/cassandra-reaper/pull/1661) Fix metric registry leak in CompactionProxy due to unique executor names (#1661) (@a-pashchenko)
+
+### 4.2.1 (2026/03/26 08:00 +00:00)
+- [#1664](https://github.com/thelastpickle/cassandra-reaper/pull/1664) Fix: Handle null root in EclipseStore to SQLite migration (#1664) (@gmanojDS)
+- [#1656](https://github.com/thelastpickle/cassandra-reaper/pull/1656) Bump jackson from 2.20.0 to 2.21.1 to address GHSA-72hv-8253-57qq (#1656) (@tengu-alt)
+- [#1650](https://github.com/thelastpickle/cassandra-reaper/pull/1650) Fix NPE in RetryPolicyImpl from null request and nullable isIdempotent (#1650) (@emptyhammond)
+
 ### 4.2.0 (2026/01/30 08:43 +00:00)
 - [#1644](https://github.com/thelastpickle/cassandra-reaper/pull/1644) Upgrade Logback to 1.5.25 to address CVE-2026-1225 (#1644) (@tengu-alt)
 - [#1623](https://github.com/thelastpickle/cassandra-reaper/pull/1623) Add a new unfulfilledRepairSchedule metric to track efficiently repairs complete in due time (#1623) (@adejanovski)
